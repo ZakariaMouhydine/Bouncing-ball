@@ -72,7 +72,7 @@ class Ball {
 }
 
 const balls:Ball[]=[]
-let numBalls=200
+let numBalls=20
 for (let i=0;i<numBalls;i++) {
     balls.push(new Ball("red",30,100,150,10+i,8+i))
 }
